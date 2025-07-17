@@ -17,12 +17,12 @@ spec:
     spec:
       containers:
         - name: model-runtime
-          image: koded001/distilbert-runtime:1.0.0 
+          image: koded001/distilbert-runtime:1.0.2 
           ports:
             - containerPort: 8000
           env:
             - name: MODEL_VERSION
-              value: "1.0.0"
+              value: "1.0.2"
             - name: JOZU_REGISTRY
               value: "jozu.ml/oyedeletemitope76"
           readinessProbe:
