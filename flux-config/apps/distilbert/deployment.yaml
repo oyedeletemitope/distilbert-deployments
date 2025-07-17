@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: model-runtime
-          image: koded001/distilbert-runtime:1.0.2 
+          image: koded001/distilbert-runtime:1.0.3  
           ports:
             - containerPort: 8000
           env:
